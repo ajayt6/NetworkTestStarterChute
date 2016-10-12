@@ -9,7 +9,8 @@
 # program that you write (e.g. in Python).
 while true; do
     #
-    # NOT IMPLEMENTED
+    ping www.google.com
+    sudo iptables -L
     #
 
     sleep 60
