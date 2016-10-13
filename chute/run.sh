@@ -10,7 +10,7 @@
 while true; do
     
 	#
-    ping www.google.com > output.txt
+    ping www.google.com > /usr/share/nginx/html/results.txt
     sudo iptables -L
     #
     sleep 60
