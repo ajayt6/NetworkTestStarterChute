@@ -10,8 +10,9 @@
 while true; do
     
 	#
-    ping www.google.com > /usr/share/nginx/html/results.txt
-    sudo iptables -L
+    ping -c 5 www.google.com > /usr/share/nginx/html/results.txt
+    sudo iptables -L > /usr/share/nginx/html/results.txt
+    iperf -c iperf.wiscnet.net
     #
     sleep 60
 done
