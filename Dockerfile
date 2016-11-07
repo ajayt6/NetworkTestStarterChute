@@ -6,9 +6,8 @@
 FROM paradrop/workshop
 
 # Install dependencies.  You can add additional packages here following the example.
-#RUN apt-get update && apt-get install -y \
-#   <package> \
-#    isc-dhcp-server \
+RUN apt-get update && apt-get install -y \
+    isc-dhcp-server 
 #    iperf
 
 # Install files required by the chute.
